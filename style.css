@@ -1,3 +1,5 @@
+/* Main */
+
 body {
  
   background: rgb(100, 3, 22);
@@ -7,6 +9,7 @@ body {
   background: linear-gradient
   margin: 0;
   padding: 0;
+
 }
 
   p {
@@ -14,5 +17,97 @@ body {
 
 }
 
- 
- 
+  .main-head {
+
+  grid-area: header;
+  background-color: rgba(196, 44, 44, 0.466);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+
+  }
+
+/* Page Margine */
+
+.page-margine {
+
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+
+}
+
+/* Top Navgation Bar */
+
+  .navigation {
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.3;
+  }
+
+  /* Navigation Links on Hover */
+
+  .navigation a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  }
+
+  .navigation a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+/* Button Link */
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+
+	opacity: 1
+
+}
+
+
+ /* Footer Style & Grid */
+
+  .footer {
+  grid-area: footer;
+  background-color: #c43c3c81;
+  padding: 10px;
+  text-align: center;
+  }
+
+/* Table Style */
+
+	.demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
